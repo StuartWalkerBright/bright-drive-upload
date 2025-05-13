@@ -14,7 +14,7 @@ const auth = new google.auth.GoogleAuth({
 
 const drive = google.drive({ version: 'v3', auth });
 
-const DRIVE_FOLDER_ID = 'YOUR_GOOGLE_DRIVE_FOLDER_ID';
+const DRIVE_FOLDER_ID = '1nCZN9HxuN-XJNZ_rbGOe_dHIFXPs28Jy';
 
 app.post('/upload', upload.single('file'), async (req, res) => {
   try {
